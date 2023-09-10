@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/MooseMega/mooseOS/main/mooseOS/assets/Moose%20Logo.png)
+![Logo](https://raw.githubusercontent.com/MooseMega/mooseOS/main/mooseOS/assets/logo.png)
 # What is mooseOS?
 mooseOS is a project that will run in your Command Prompt on your Windows install.
 # Supported versions of Windows.
