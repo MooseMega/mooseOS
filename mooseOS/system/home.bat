@@ -1,6 +1,7 @@
 @echo off
-set buildVersion = 0.0
-set buildChannel = building
+set buildVersion = 0.0.1
+set buildChannel = dev
+set messageboardMSGS = 0
 goto app.moose.oobe.createfiles
 :app.moose.oobe.createflies
 cls
@@ -47,3 +48,24 @@ exit
 :app.moose.oobe.start.continue.launchii
 cls
 title Important Information
+echo Thank you for moving the files. We will now send you to the Important Information. Please read through this as it's very important.
+pause
+goto app.moose.oobe.ii
+:app.moose.oobe.ii
+cls
+title Important Information
+echo Last updated on 11th September 2023.
+echo.
+echo 1. You may not take our code and change it to make it your own without our permission. 
+echo 2. Updates will be in the MAJOR.MONTH format, e.g., 1.1
+echo 3. We reserve the right to discontinue products early and release updates at our own speed.
+echo 4. If you encounter any issues with our software, please report it on our online reporter.
+echo.
+echo If you do not agree with the important information, please close the software now and delete it.
+pause
+goto app.moose.home
+:app.moose.home
+cls
+title HOME Menu
+echo Welcome to the HOME Menu.
+echo 
